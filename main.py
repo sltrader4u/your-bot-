@@ -3,8 +3,8 @@ import pandas as pd
 import time
 import requests
 
-TELEGRAM_TOKEN = "YOUR_BOT_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+TELEGRAM_TOKEN = "8442847370:AAFMIHvOZGxiq5vl_x4W5inoqAhCQEwIzWk"
+CHAT_ID = "617374916"
 
 def send_telegram_alert(message):
     url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
