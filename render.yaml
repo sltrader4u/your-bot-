@@ -1,6 +1,7 @@
 services:
-  - type: web
-    name: nifty50-alert-bot
-    env: python
-    buildCommand: pip install -r requirements.txt
+  - type: worker
+    name: your-bot-2
+    runtime: python
+    branch: main
+    buildCommand: ""
     startCommand: python main.py
